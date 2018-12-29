@@ -1,0 +1,20 @@
+name: AdvancedPluginManager
+main: pmmpplugins\advancedpluginmanager\AdvancedPluginManager
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+load: STARTUP
+author: "PMMP-Plugins"
+
+permissions:
+  pluginmanager.enable:
+    default: op
+    description: "Allows: Enable a (disabled) plugin."
+  pluginmanager.disable:
+    default: op
+    description: "Allows: Disable a (enabled) plugin."
+  pluginmanager.add:
+    default: op
+    description: "Allows: Add a plugin to the startup-disabled list."
+  pluginmanager.remove:
+    default: op
+    description: "Allows: Remove a plugin from the startup-disabled list."

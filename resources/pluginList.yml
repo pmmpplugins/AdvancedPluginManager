@@ -1,0 +1,19 @@
+# Manipulators: * - Used to en-/disable every plugin
+#                 -> select every plugin
+
+# The amount of time the plugin check should be scheduled.
+# Used to disable plugins after everything loaded.
+# Type: Integer
+execution-delay: 2
+
+# Array of the plugins that should be enabled after the check completed.
+# Manipulator: *
+# Type: String
+enabled:
+  - ""
+
+# Array of the plugins that should be disabled after the check completed.
+# Manipulator: *
+# Type: String
+disabled:
+  - ""
